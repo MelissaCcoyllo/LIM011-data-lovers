@@ -72,8 +72,9 @@ orden.addEventListener('change', (event) => {
 /* para buscar el nombre del pokemon */
 const formulario = document.querySelector('#formulario');
 formulario.addEventListener('input', (event) => {
-  const pintame = document.getElementById('pintame');
   const resultado = document.getElementById('resultado');
+  resultado.innerHTML = '';
+  const pintame = document.getElementById('pintame');
   pintame.classList.remove('hide');
   resultado.classList.remove('hide');
   pintado(buscarPokemon(POKEMON, event.target.value.toLowerCase()));
