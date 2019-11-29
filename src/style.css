@@ -198,9 +198,7 @@ nav{
     font-family: 'Roboto Slab', serif;
     margin-top: 60px;
     cursor: pointer; 
-  
 }
-
 .select option, .select1 option{
     background-color:rgba(242, 247, 255, 1);
     color: #333333;
@@ -211,10 +209,8 @@ nav{
 
 section{
     margin-top: 150px;
-    margin-left: 100px;
-    
+    margin-left: 100px;   
 }
-
 /* Menu Debilidades de pokemon */
  .select2{
     position: absolute;
